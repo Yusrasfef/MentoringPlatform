@@ -1,0 +1,51 @@
+.navbar.navbar-light {
+    background-color: #2A649D;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 20px;
+}
+
+#logo {
+    width: 180px;
+    height: 80px;
+    margin-left: 10px;
+}
+.bi-person-circle {
+    font-size: 50px; 
+    color: #fff;
+  }
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 15px;
+    color: #73777A;
+    font-weight: 400;
+}
+.sideNavItems {
+    display: flex;
+    align-items: center;
+    color: #2A649D;
+}
+
+#tools {
+    margin-top: 50px;
+}
+
+.sideNavItems .nav-link{
+    color: #2A649D; 
+    font-weight: 500;
+}
+
+
+
+  
