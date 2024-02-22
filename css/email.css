@@ -1,24 +1,3 @@
-  /* header */
-
-.navbar.navbar-light {
-    background-color: #2A649D;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: white;
-    font-size: 20px;
-}
-
-#logo {
-    width: 180px;
-    height: 80px;
-    margin-left: 10px;
-}
-.bi-person-circle {
-    font-size: 50px; 
-    color: #fff;
-  }
-
 body, html {
     height: 100%;
     margin: 0;
@@ -64,7 +43,7 @@ h1 {
     color: #333;
   }
   
-  header, aside, main, footer {
+aside, main, footer {
     padding: 1em;
   }
   
@@ -123,27 +102,4 @@ h1 {
   }
 
   
-  /* Footer */
-  footer {
-    background-color: #72777A;
-    text-align: center;
-    padding: 1em 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-  
-  footer p {
-    margin-bottom: 0.5em;
-  }
-  
-  footer nav a {
-    margin: 0 10px;
-    color: #faf7f7;
-    text-decoration: none;
-  }
-  
-  footer nav a:hover {
-    text-decoration: underline;
-  }
   
