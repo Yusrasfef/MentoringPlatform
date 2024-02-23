@@ -15,29 +15,39 @@
 
 <aside>
   <!-- Sidebar content here -->
-  <ul>
-    <h2>Emails</h2>
+  <h2>Emails</h2>
+  <ul class="sidebar">
 
-    <div class="sidebar">
-    <li><i class="bi bi-pencil-square"></i>  Compose</li>
-    </div>
+    <li>
+      <button onclick="href='#'">
+        <i class="bi bi-pencil-square"></i> Compose
+      </button>
+    </li>
 
-    <div class="sidebar">
-    <li><i class="bi bi-inbox"></i>  Inbox</li>
-    </div>
+    <li>
+        <button onclick="href='#'">
+          <i class="bi bi-inbox"></i> Inbox
+        </button>
+      </li>
 
-    <div class="sidebar">
-    <li><i class="bi bi-star"></i>  Starred</li>
-    </div>
+      <li>
+        <button onclick="href='#'">
+          <i class="bi bi-star"></i> Starred
+        </button>
+      </li>
 
-    <div class="sidebar">
-    <li><i class="bi bi-send"></i>  Sent</li>
-    </div>
+      <li>
+        <button onclick="href='#'">
+          <i class="bi bi-send"></i> Sent
+        </button>
+      </li>
 
-    <div class="sidebar">
-    <li><i class="bi bi-trash"></i>  Trash</li>
-    </div>
-
+      <li>
+        <button onclick="href='#'">
+          <i class="bi bi-trash"></i> Trash
+        </button>
+      </li>
+    
   </ul>
 </aside>
 
@@ -46,11 +56,42 @@
   <section>
     <article>
       <!-- List of emails -->
-      <div><i class="bi bi-person-fill"></i>  Cathrin Luther - Checking up on your milestones </div>
-      <div><i class="bi bi-person-fill"></i>  Cathrin Jackson - Another Problem!</div>
-      <div><i class="bi bi-person-fill"></i>  Kristina Musterfrau - Ending of Mentorship</div>
-      <div><i class="bi bi-person-fill"></i>  Sophia Musterfrau - Mentorship change request</div>
-      <!-- Add more emails as needed -->
+      <div class="email-entry">
+      <i class="bi bi-person-circle icon"></i>
+        <div class="email-info">
+          <p>Cathrin Luther</p>
+          <span>Checking up on your milestones</span>
+        </div>
+        <span class="date-time">Nov 20, 15:00</span>
+      </div>
+
+      <div class="email-entry">
+      <i class="bi bi-person-circle icon"></i>
+        <div class="email-info">
+          <p> Cathrin Jackson</p>
+          <span>Another Problem!</span>
+        </div>
+        <span class="date-time">Nov 20, 15:00</span>
+      </div>
+
+      <div class="email-entry">
+        <i class="bi bi-person-circle icon"></i>
+        <div class="email-info">
+          <p> Kristina Musterfrau </p>
+          <span>Ending of Mentorship</span>
+        </div>
+        <span class="date-time">Nov 20, 15:00</span>
+      </div>
+
+      <div class="email-entry">
+      <i class="bi bi-person-circle icon"></i>
+        <div class="email-info">
+          <p> Sophia Musterfrau </p>
+          <span>Mentorship change request</span>
+        </div>
+        <span class="date-time">Nov 20, 15:00</span>
+      </div>
+
     </article>
   </section>
 </main>
