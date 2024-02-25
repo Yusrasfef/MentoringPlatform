@@ -110,3 +110,128 @@ main article div.email-info span{
 }
   
   
+body {
+  font-family: Arial, sans-serif;
+}
+
+.email-container {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.email-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  background: rgba(0, 100, 156, 0.31);
+}
+
+.email-header h3 {
+  margin: 0;
+}
+
+.email-header-buttons {
+  display: flex;
+  gap: 10px;
+  /* Adjust gap between buttons */
+}
+
+.email-header-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.email-header-button img {
+  height: 20px;
+  width: 20px;
+  /* Adjust size as needed */
+}
+
+.form-label {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: #777;
+}
+
+.form-control {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 5px 0;
+  background-color: transparent;
+  resize: none;
+  box-sizing: border-box;
+  /* Make sure the input width doesn't exceed the parent's width */
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.form-control[readonly] {
+  background-color: transparent;
+  color: #333;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.icons-container {
+  display: flex;
+}
+
+.input-group-icon {
+  height: 20px;
+  /* Adjust as needed */
+  margin-left: 10px;
+  /* Space between icons */
+}
+
+.email-body {
+  height: 150px;
+  /* You can adjust this value as needed */
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+
+.send-button-container {
+position: relative;
+display: flex;
+justify-content: flex-end;
+margin-top: 20px;
+}
+
+.btn-send {
+background: #00649C;
+border-radius: 20px;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+position: relative;
+overflow: visible;
+color: white;
+}
+
+.send-icon {
+width: auto; /* Adjust as needed */
+height: 20px; /* Adjust as needed */
+}
