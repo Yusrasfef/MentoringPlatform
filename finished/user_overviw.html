@@ -1,0 +1,1093 @@
+<html>
+    <head></head>
+    <style>
+        .div {
+          background-color: #fff;
+          display: flex;
+          flex-direction: column;
+        }
+        .div-2 {
+          background-color: #00649c;
+          display: flex;
+          width: 100%;
+          align-items: start;
+          justify-content: space-between;
+          gap: 20px;
+          color: #fff;
+          white-space: nowrap;
+          padding: 16px 63px 10px;
+        }
+        @media (max-width: 991px) {
+          .div-2 {
+            max-width: 100%;
+            flex-wrap: wrap;
+            white-space: initial;
+            padding: 0 20px;
+          }
+        }
+        .div-3 {
+          display: flex;
+          flex-grow: 1;
+          flex-basis: 0%;
+          flex-direction: column;
+        }
+        @media (max-width: 991px) {
+          .div-3 {
+            white-space: initial;
+          }
+        }
+        .div-4 {
+          font: 900 32px/29px Inter, sans-serif;
+        }
+        .div-5 {
+          font: 300 14px/179% Inter, sans-serif;
+        }
+        .div-6 {
+          align-self: stretch;
+          display: flex;
+          gap: 6px;
+          font-size: 24px;
+          font-weight: 400;
+          text-align: center;
+          margin: auto 0;
+        }
+        @media (max-width: 991px) {
+          .div-6 {
+            white-space: initial;
+          }
+        }
+        .img {
+          aspect-ratio: 1.67;
+          object-fit: auto;
+          object-position: center;
+          width: 20px;
+          margin: auto 0;
+        }
+        .div-7 {
+          font-family: Inter, sans-serif;
+        }
+        .img-2 {
+          aspect-ratio: 1.54;
+          object-fit: auto;
+          object-position: center;
+          width: 109px;
+          max-width: 100%;
+        }
+        .div-8 {
+          align-self: center;
+          display: flex;
+          margin-top: 124px;
+          gap: 18px;
+          text-align: center;
+          padding: 0 20px;
+        }
+        @media (max-width: 991px) {
+          .div-8 {
+            max-width: 100%;
+            flex-wrap: wrap;
+            margin-top: 40px;
+          }
+        }
+        .div-9 {
+          border-radius: 5px;
+          border: 1px solid #fff;
+          background-color: #fff;
+          display: flex;
+          flex-basis: 0%;
+          flex-direction: column;
+          font-size: 20px;
+          color: #00649c;
+          font-weight: 400;
+          white-space: nowrap;
+          padding: 17px 64px 50px 9px;
+        }
+        @media (max-width: 991px) {
+          .div-9 {
+            padding-right: 20px;
+            white-space: initial;
+          }
+        }
+        .div-10 {
+          color: #72777a;
+          font: 14px Inter, sans-serif;
+        }
+        .div-11 {
+          display: flex;
+          margin-top: 19px;
+          justify-content: space-between;
+          gap: 14px;
+        }
+        @media (max-width: 991px) {
+          .div-11 {
+            white-space: initial;
+          }
+        }
+        .img-3 {
+          aspect-ratio: 1;
+          object-fit: auto;
+          object-position: center;
+          width: 25px;
+        }
+        .div-12 {
+          font-family: Inter, sans-serif;
+        }
+        .div-13 {
+          color: #72777a;
+          margin-top: 59px;
+          font: 14px Inter, sans-serif;
+        }
+        @media (max-width: 991px) {
+          .div-13 {
+            margin-top: 40px;
+          }
+        }
+        .div-14 {
+          display: flex;
+          margin-top: 23px;
+          justify-content: space-between;
+          gap: 13px;
+        }
+        @media (max-width: 991px) {
+          .div-14 {
+            white-space: initial;
+          }
+        }
+        .img-4 {
+          aspect-ratio: 1;
+          object-fit: auto;
+          object-position: center;
+          width: 25px;
+        }
+        .div-15 {
+          font-family: Inter, sans-serif;
+          margin: auto 0;
+        }
+        .div-16 {
+          display: flex;
+          margin-top: 20px;
+          justify-content: space-between;
+          gap: 12px;
+        }
+        @media (max-width: 991px) {
+          .div-16 {
+            margin-right: 5px;
+            white-space: initial;
+          }
+        }
+        .img-5 {
+          aspect-ratio: 1;
+          object-fit: auto;
+          object-position: center;
+          width: 24px;
+        }
+        .div-17 {
+          font-family: Inter, sans-serif;
+          margin: auto 0;
+        }
+        .div-18 {
+          display: flex;
+          margin-top: 23px;
+          justify-content: space-between;
+          gap: 17px;
+        }
+        @media (max-width: 991px) {
+          .div-18 {
+            white-space: initial;
+          }
+        }
+        .img-6 {
+          aspect-ratio: 1;
+          object-fit: auto;
+          object-position: center;
+          width: 20px;
+          stroke-width: 1.5px;
+          stroke: #00649c;
+          align-self: start;
+        }
+        .div-19 {
+          font-family: Inter, sans-serif;
+        }
+        .div-20 {
+          display: flex;
+          margin-top: 22px;
+          justify-content: space-between;
+          gap: 15px;
+          color: #8bb31d;
+        }
+        @media (max-width: 991px) {
+          .div-20 {
+            white-space: initial;
+          }
+        }
+        .img-7 {
+          aspect-ratio: 1;
+          object-fit: auto;
+          object-position: center;
+          width: 24px;
+        }
+        .div-21 {
+          font-family: Inter, sans-serif;
+          margin: auto 0;
+        }
+        .img-8 {
+          aspect-ratio: 0.01;
+          object-fit: auto;
+          object-position: center;
+          width: 9px;
+          stroke-width: 1px;
+          stroke: #72777a;
+          filter: blur(2px);
+          margin: auto 0;
+        }
+        .div-22 {
+          align-self: start;
+          display: flex;
+          flex-grow: 1;
+          flex-basis: 0%;
+          flex-direction: column;
+        }
+        @media (max-width: 991px) {
+          .div-22 {
+            max-width: 100%;
+          }
+        }
+        .div-23 {
+          color: #8bb31d;
+          align-self: start;
+          margin-left: 13px;
+          font: 500 20px Inter, sans-serif;
+        }
+        @media (max-width: 991px) {
+          .div-23 {
+            margin-left: 10px;
+          }
+        }
+        .div-24 {
+          display: flex;
+          margin-top: 5px;
+          justify-content: space-between;
+          gap: 20px;
+        }
+        @media (max-width: 991px) {
+          .div-24 {
+            max-width: 100%;
+            flex-wrap: wrap;
+          }
+        }
+        .div-25 {
+          background-color: #fff;
+          display: flex;
+          flex-grow: 1;
+          flex-basis: 0%;
+          flex-direction: column;
+          font-size: 11px;
+          color: #000;
+          font-weight: 400;
+          margin: auto 0;
+          padding: 11px 5px 50px 10px;
+        }
+        @media (max-width: 991px) {
+          .div-25 {
+            max-width: 100%;
+          }
+        }
+        .div-26 {
+          align-self: start;
+          display: flex;
+          gap: 15px;
+          font-size: 14px;
+          color: #dadada;
+          white-space: nowrap;
+        }
+        @media (max-width: 991px) {
+          .div-26 {
+            white-space: initial;
+          }
+        }
+        .div-27 {
+          justify-content: space-between;
+          border: 1px solid #c9c5c5;
+          background-color: #fff;
+          display: flex;
+          gap: 20px;
+          padding: 4px 9px;
+        }
+        @media (max-width: 991px) {
+          .div-27 {
+            white-space: initial;
+          }
+        }
+        .div-28 {
+          font-family: Inter, sans-serif;
+          align-self: start;
+          margin-top: 8px;
+        }
+        .img-9 {
+          aspect-ratio: 0.9;
+          object-fit: auto;
+          object-position: center;
+          width: 19px;
+        }
+        .img-10 {
+          aspect-ratio: 0.91;
+          object-fit: auto;
+          object-position: center;
+          width: 20px;
+          margin: auto 0;
+        }
+        .div-29 {
+          border: 1px solid #c9c5c5;
+          background-color: #fff;
+          display: flex;
+          margin-top: 55px;
+          justify-content: space-between;
+          gap: 20px;
+          font-size: 14px;
+          color: #00649c;
+          white-space: nowrap;
+          padding: 13px 19px 6px;
+        }
+        @media (max-width: 991px) {
+          .div-29 {
+            max-width: 100%;
+            flex-wrap: wrap;
+            margin-top: 40px;
+            white-space: initial;
+          }
+        }
+        .div-30 {
+          font-family: Inter, sans-serif;
+        }
+        .div-31 {
+          font-family: Inter, sans-serif;
+          align-self: start;
+        }
+        .div-32 {
+          font-family: Inter, sans-serif;
+          align-self: start;
+          flex-grow: 1;
+          flex-basis: auto;
+        }
+        .div-33 {
+          font-family: Inter, sans-serif;
+          flex-grow: 1;
+          flex-basis: auto;
+        }
+        .div-34 {
+          display: flex;
+          justify-content: space-between;
+          gap: 9px;
+          white-space: nowrap;
+        }
+        @media (max-width: 991px) {
+          .div-34 {
+            max-width: 100%;
+            flex-wrap: wrap;
+            white-space: initial;
+          }
+        }
+        .div-35 {
+          border: 1px solid #c9c5c5;
+          background-color: #fff;
+          display: flex;
+          justify-content: space-between;
+          gap: 20px;
+          padding: 13px 19px;
+        }
+        @media (max-width: 991px) {
+          .div-35 {
+            max-width: 100%;
+            flex-wrap: wrap;
+            white-space: initial;
+          }
+        }
+        .div-36 {
+          font-family: Inter, sans-serif;
+          flex-grow: 1;
+        }
+        @media (max-width: 991px) {
+          .div-36 {
+            white-space: initial;
+          }
+        }
+        .div-37 {
+          font-family: Inter, sans-serif;
+          flex-grow: 1;
+          flex-basis: auto;
+        }
+        .div-38 {
+          font-family: Inter, sans-serif;
+        }
+        .div-39 {
+          font-family: Inter, sans-serif;
+          flex-grow: 1;
+          flex-basis: auto;
+        }
+        .img-11 {
+          aspect-ratio: 1.27;
+          object-fit: auto;
+          object-position: center;
+          width: 19px;
+          fill: #000;
+          margin: auto 0;
+        }
+        .div-40 {
+          display: flex;
+          justify-content: space-between;
+          gap: 9px;
+          white-space: nowrap;
+        }
+        @media (max-width: 991px) {
+          .div-40 {
+            max-width: 100%;
+            flex-wrap: wrap;
+            white-space: initial;
+          }
+        }
+        .div-41 {
+          border: 1px solid #c9c5c5;
+          background-color: #fff;
+          display: flex;
+          justify-content: space-between;
+          gap: 20px;
+          padding: 13px 19px;
+        }
+        @media (max-width: 991px) {
+          .div-41 {
+            max-width: 100%;
+            flex-wrap: wrap;
+            white-space: initial;
+          }
+        }
+        .div-42 {
+          font-family: Inter, sans-serif;
+          flex-grow: 1;
+        }
+        @media (max-width: 991px) {
+          .div-42 {
+            white-space: initial;
+          }
+        }
+        .div-43 {
+          font-family: Inter, sans-serif;
+          flex-grow: 1;
+          flex-basis: auto;
+        }
+        .div-44 {
+          font-family: Inter, sans-serif;
+        }
+        .div-45 {
+          font-family: Inter, sans-serif;
+          flex-grow: 1;
+          flex-basis: auto;
+        }
+        .img-12 {
+          aspect-ratio: 1.27;
+          object-fit: auto;
+          object-position: center;
+          width: 19px;
+          fill: #000;
+          margin: auto 0;
+        }
+        .div-46 {
+          display: flex;
+          justify-content: space-between;
+          gap: 9px;
+          white-space: nowrap;
+        }
+        @media (max-width: 991px) {
+          .div-46 {
+            max-width: 100%;
+            flex-wrap: wrap;
+            white-space: initial;
+          }
+        }
+        .div-47 {
+          border: 1px solid #c9c5c5;
+          background-color: #fff;
+          display: flex;
+          justify-content: space-between;
+          gap: 20px;
+          padding: 13px 19px;
+        }
+        @media (max-width: 991px) {
+          .div-47 {
+            max-width: 100%;
+            flex-wrap: wrap;
+            white-space: initial;
+          }
+        }
+        .div-48 {
+          font-family: Inter, sans-serif;
+          flex-grow: 1;
+        }
+        @media (max-width: 991px) {
+          .div-48 {
+            white-space: initial;
+          }
+        }
+        .div-49 {
+          font-family: Inter, sans-serif;
+          flex-grow: 1;
+          flex-basis: auto;
+        }
+        .div-50 {
+          font-family: Inter, sans-serif;
+        }
+        .div-51 {
+          font-family: Inter, sans-serif;
+          flex-grow: 1;
+          flex-basis: auto;
+        }
+        .img-13 {
+          aspect-ratio: 1.27;
+          object-fit: auto;
+          object-position: center;
+          width: 19px;
+          fill: #000;
+          margin: auto 0;
+        }
+        .div-52 {
+          display: flex;
+          justify-content: space-between;
+          gap: 9px;
+          white-space: nowrap;
+        }
+        @media (max-width: 991px) {
+          .div-52 {
+            max-width: 100%;
+            flex-wrap: wrap;
+            white-space: initial;
+          }
+        }
+        .div-53 {
+          border: 1px solid #c9c5c5;
+          background-color: #fff;
+          display: flex;
+          justify-content: space-between;
+          gap: 20px;
+          padding: 13px 19px;
+        }
+        @media (max-width: 991px) {
+          .div-53 {
+            max-width: 100%;
+            flex-wrap: wrap;
+            white-space: initial;
+          }
+        }
+        .div-54 {
+          font-family: Inter, sans-serif;
+          flex-grow: 1;
+        }
+        @media (max-width: 991px) {
+          .div-54 {
+            white-space: initial;
+          }
+        }
+        .div-55 {
+          font-family: Inter, sans-serif;
+          flex-grow: 1;
+          flex-basis: auto;
+        }
+        .div-56 {
+          font-family: Inter, sans-serif;
+        }
+        .div-57 {
+          font-family: Inter, sans-serif;
+          flex-grow: 1;
+          flex-basis: auto;
+        }
+        .img-14 {
+          aspect-ratio: 1.27;
+          object-fit: auto;
+          object-position: center;
+          width: 19px;
+          fill: #000;
+          margin: auto 0;
+        }
+        .div-58 {
+          display: flex;
+          justify-content: space-between;
+          gap: 9px;
+          white-space: nowrap;
+        }
+        @media (max-width: 991px) {
+          .div-58 {
+            max-width: 100%;
+            flex-wrap: wrap;
+            white-space: initial;
+          }
+        }
+        .div-59 {
+          border: 1px solid #c9c5c5;
+          background-color: #fff;
+          display: flex;
+          justify-content: space-between;
+          gap: 20px;
+          padding: 13px 19px;
+        }
+        @media (max-width: 991px) {
+          .div-59 {
+            max-width: 100%;
+            flex-wrap: wrap;
+            white-space: initial;
+          }
+        }
+        .div-60 {
+          font-family: Inter, sans-serif;
+          flex-grow: 1;
+        }
+        @media (max-width: 991px) {
+          .div-60 {
+            white-space: initial;
+          }
+        }
+        .div-61 {
+          font-family: Inter, sans-serif;
+          flex-grow: 1;
+          flex-basis: auto;
+        }
+        .div-62 {
+          font-family: Inter, sans-serif;
+        }
+        .div-63 {
+          font-family: Inter, sans-serif;
+          flex-grow: 1;
+          flex-basis: auto;
+        }
+        .img-15 {
+          aspect-ratio: 1.27;
+          object-fit: auto;
+          object-position: center;
+          width: 19px;
+          fill: #000;
+          margin: auto 0;
+        }
+        .div-64 {
+          display: flex;
+          margin-top: 12px;
+          padding-right: 7px;
+          justify-content: space-between;
+          gap: 20px;
+          font-size: 14px;
+        }
+        @media (max-width: 991px) {
+          .div-64 {
+            max-width: 100%;
+            flex-wrap: wrap;
+          }
+        }
+        .div-65 {
+          font-family: Inter, sans-serif;
+          align-self: start;
+          margin-top: 11px;
+        }
+        .img-16 {
+          aspect-ratio: 2.78;
+          object-fit: auto;
+          object-position: center;
+          width: 67px;
+          border-radius: 5px;
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        }
+        .img-17 {
+          aspect-ratio: 0.01;
+          object-fit: auto;
+          object-position: center;
+          width: 9px;
+          stroke-width: 1px;
+          stroke: #72777a;
+          filter: blur(2px);
+        }
+        .div-66 {
+          align-self: start;
+          display: flex;
+          margin-top: 32px;
+          flex-basis: 0%;
+          flex-direction: column;
+          font-size: 14px;
+          color: #fff;
+          font-weight: 500;
+        }
+        .div-67 {
+          justify-content: space-between;
+          border-radius: 5px;
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+          background-color: #a5d917;
+          display: flex;
+          gap: 13px;
+          padding: 14px 26px;
+        }
+        @media (max-width: 991px) {
+          .div-67 {
+            padding-left: 20px;
+          }
+        }
+        .div-68 {
+          font-family: Inter, sans-serif;
+          align-self: start;
+          margin-top: 12px;
+        }
+        .img-18 {
+          aspect-ratio: 1.04;
+          object-fit: auto;
+          object-position: center;
+          width: 27px;
+        }
+        .div-69 {
+          justify-content: space-between;
+          border-radius: 5px;
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+          background-color: #a5d917;
+          display: flex;
+          margin-top: 20px;
+          gap: 10px;
+          white-space: nowrap;
+          padding: 17px 12px 17px 25px;
+        }
+        @media (max-width: 991px) {
+          .div-69 {
+            padding-left: 20px;
+            white-space: initial;
+          }
+        }
+        .div-70 {
+          font-family: Inter, sans-serif;
+          flex-grow: 1;
+        }
+        @media (max-width: 991px) {
+          .div-70 {
+            white-space: initial;
+          }
+        }
+        .img-19 {
+          aspect-ratio: 1;
+          object-fit: auto;
+          object-position: center;
+          width: 20px;
+        }
+        .div-71 {
+          background-color: #d13b3b;
+          border-radius: 50%;
+          align-self: end;
+          z-index: 10;
+          margin-top: 13px;
+          width: 15px;
+          height: 14px;
+        }
+        .div-72 {
+          justify-content: space-between;
+          border-radius: 5px;
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+          background-color: #a5d917;
+          display: flex;
+          gap: 5px;
+          white-space: nowrap;
+          padding: 17px 2px 17px 7px;
+        }
+        @media (max-width: 991px) {
+          .div-72 {
+            white-space: initial;
+          }
+        }
+        .div-73 {
+          font-family: Inter, sans-serif;
+          flex-grow: 1;
+        }
+        @media (max-width: 991px) {
+          .div-73 {
+            white-space: initial;
+          }
+        }
+        .img-20 {
+          aspect-ratio: 0.95;
+          object-fit: auto;
+          object-position: center;
+          width: 19px;
+          fill: #fff;
+        }
+        .div-74 {
+          background-color: #72777a;
+          display: flex;
+          margin-top: 36px;
+          width: 100%;
+          justify-content: center;
+          align-items: center;
+          font-size: 14px;
+          color: #fff;
+          font-weight: 400;
+          padding: 38px 60px;
+        }
+        @media (max-width: 991px) {
+          .div-74 {
+            max-width: 100%;
+            padding: 0 20px;
+          }
+        }
+        .div-75 {
+          display: flex;
+          width: 100%;
+          max-width: 1023px;
+          justify-content: space-between;
+          gap: 20px;
+        }
+        @media (max-width: 991px) {
+          .div-75 {
+            max-width: 100%;
+            flex-wrap: wrap;
+          }
+        }
+        .div-76 {
+          font-family: Inter, sans-serif;
+          flex-grow: 1;
+          flex-basis: auto;
+        }
+        .div-77 {
+          align-self: start;
+          display: flex;
+          justify-content: space-between;
+          gap: 20px;
+          white-space: nowrap;
+          text-align: center;
+        }
+        @media (max-width: 991px) {
+          .div-77 {
+            white-space: initial;
+          }
+        }
+        .div-78 {
+          font-family: Inter, sans-serif;
+        }
+        .div-79 {
+          font-family: Inter, sans-serif;
+        }
+        .div-80 {
+          font-family: Inter, sans-serif;
+        }
+      </style>
+    <body>
+        <div class="div">
+            <div class="div-2">
+              <div class="div-3">
+                <div class="div-4">
+                  WeCanTech
+                  <br />
+                  Mentoring
+                </div>
+                <div class="div-5">Frauen|Technik|Zukunft</div>
+              </div>
+              <div class="div-6">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/cc72f956b49c11de9e4b8f3f68f313044052d4c7139c5465668ca00f1687ad97?"
+                  class="img"
+                />
+                <div class="div-7">About</div>
+              </div>
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/3ed5de3c43d823d96eb31d2d871bd0704b0d155eab129e7849e86db849c438fd?"
+                class="img-2"
+              />
+            </div>
+            <div class="div-8">
+              <div class="div-9">
+                <div class="div-10">MAIN</div>
+                <div class="div-11">
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/402d93fda615a2faed730bd3ba01c3c082c4dad06fca2ac9803b6f7a43689458?"
+                    class="img-3"
+                  />
+                  <div class="div-12">Dashbard</div>
+                </div>
+                <div class="div-13">TOOLS</div>
+                <div class="div-14">
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/599dd95b833944178b615927fc5bde1c07ecf0fb2760a2caa10535f741ee09cb?"
+                    class="img-4"
+                  />
+                  <div class="div-15">Email</div>
+                </div>
+                <div class="div-16">
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/a3d99ecde67ba032ace4ed13721fa678908958bc17ae5eeea9ad69184a7f16bb?"
+                    class="img-5"
+                  />
+                  <div class="div-17">Calendar</div>
+                </div>
+                <div class="div-18">
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/fac81233b3afa993b194fe5613e1f857c52da0dbf497c1b8447a87c95a0e2765?"
+                    class="img-6"
+                  />
+                  <div class="div-19">Reports</div>
+                </div>
+                <div class="div-20">
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/66eecd0bd3a20d68e0a4ceec2e9fa1abf15e1420a83f05a332ca1c3ccb738bc8?"
+                    class="img-7"
+                  />
+                  <div class="div-21">Users</div>
+                </div>
+              </div>
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/442494a4773339dcd370cc857333c1a7c933caf21a98242363339488ef3ca97e?"
+                class="img-8"
+              />
+              <div class="div-22">
+                <div class="div-23">Users</div>
+                <div class="div-24">
+                  <div class="div-25">
+                    <div class="div-26">
+                      <div class="div-27">
+                        <div class="div-28">Search</div>
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/a2e6cde6a430a2746aef4e7ad13282448cadd62f35808ab634e56bfe9fd41303?"
+                          class="img-9"
+                        />
+                      </div>
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/4e450ea18a42204887f2be4263e1f772483884eb59afe4aa2c2d3871501f709d?"
+                        class="img-10"
+                      />
+                    </div>
+                    <div class="div-29">
+                      <div class="div-30">Name</div>
+                      <div class="div-31">Email</div>
+                      <div class="div-32">Mentor/Mentee</div>
+                      <div class="div-33">Registered</div>
+                    </div>
+                    <div class="div-34">
+                      <div class="div-35">
+                        <div class="div-36">Diana Musterfrau</div>
+                        <div class="div-37">diana@technikum.wien.at</div>
+                        <div class="div-38">Mentor</div>
+                        <div class="div-39">11.10.2023</div>
+                      </div>
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/e290a6224d4ad2bb1c41d54fa4ae2bedff61383acc53bb933c8ee09301eecdca?"
+                        class="img-11"
+                      />
+                    </div>
+                    <div class="div-40">
+                      <div class="div-41">
+                        <div class="div-42">Claudia Musterfrau</div>
+                        <div class="div-43">claudia@technikum.wien.at</div>
+                        <div class="div-44">Mentee</div>
+                        <div class="div-45">06.09.2023</div>
+                      </div>
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/e290a6224d4ad2bb1c41d54fa4ae2bedff61383acc53bb933c8ee09301eecdca?"
+                        class="img-12"
+                      />
+                    </div>
+                    <div class="div-46">
+                      <div class="div-47">
+                        <div class="div-48">Beatrice Musterfrau</div>
+                        <div class="div-49">beatrice@technikum.wien.at</div>
+                        <div class="div-50">Mentor</div>
+                        <div class="div-51">05.04.2023</div>
+                      </div>
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/e290a6224d4ad2bb1c41d54fa4ae2bedff61383acc53bb933c8ee09301eecdca?"
+                        class="img-13"
+                      />
+                    </div>
+                    <div class="div-52">
+                      <div class="div-53">
+                        <div class="div-54">Sylvia Musterfrau</div>
+                        <div class="div-55">sylvia@technikum.wien.at</div>
+                        <div class="div-56">Mentee</div>
+                        <div class="div-57">02.05.2023</div>
+                      </div>
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/e290a6224d4ad2bb1c41d54fa4ae2bedff61383acc53bb933c8ee09301eecdca?"
+                        class="img-14"
+                      />
+                    </div>
+                    <div class="div-58">
+                      <div class="div-59">
+                        <div class="div-60">Emilia Musterfrau</div>
+                        <div class="div-61">emilia@technikum.wien.at</div>
+                        <div class="div-62">Mentee</div>
+                        <div class="div-63">18.02.2023</div>
+                      </div>
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/e290a6224d4ad2bb1c41d54fa4ae2bedff61383acc53bb933c8ee09301eecdca?"
+                        class="img-15"
+                      />
+                    </div>
+                    <div class="div-64">
+                      <div class="div-65">See all &gt;</div>
+                      <img
+                        loading="lazy"
+                        srcset="..."
+                        class="img-16"
+                      />
+                    </div>
+                  </div>
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/4845b71c981324352e1dadfcadc06c57fdfdd100f9756bf573a55a29d37c8553?"
+                    class="img-17"
+                  />
+                  <div class="div-66">
+                    <div class="div-67">
+                      <div class="div-68">Add User</div>
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/1a74763db24da29df68506731147dc86eb417068522f2a2f70c704e335f2d060?"
+                        class="img-18"
+                      />
+                    </div>
+                    <div class="div-69">
+                      <div class="div-70">Upload Excel</div>
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/6fc58b05dfb09b032ca97d4b6ee27e7a6b37ef495fe70f36b1171e87d4e8a6f4?"
+                        class="img-19"
+                      />
+                    </div>
+                    <div class="div-71"></div>
+                    <div class="div-72">
+                      <div class="div-73">Pending Requests</div>
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/17cdf035f448bc4e064d3d8853bee28cd11cfe8580d38ef6be10dabe72219f6e?"
+                        class="img-20"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="div-74">
+              <div class="div-75">
+                <div class="div-76">@2023 FH Technikum Wien</div>
+                <div class="div-77">
+                  <div class="div-78">Home</div>
+                  <div class="div-79">Impressum</div>
+                  <div class="div-80">Privacy</div>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+      
+
+   
+    </body>
+</html>

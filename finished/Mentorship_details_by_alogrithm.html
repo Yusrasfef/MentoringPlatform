@@ -1,0 +1,965 @@
+<html>
+    <head></head>
+    <style>
+        .div {
+          background-color: #fff;
+          display: flex;
+          flex-direction: column;
+        }
+        .div-2 {
+          background-color: #00649c;
+          display: flex;
+          width: 100%;
+          align-items: start;
+          justify-content: space-between;
+          gap: 20px;
+          color: #fff;
+          white-space: nowrap;
+          padding: 18px 51px 10px;
+        }
+        @media (max-width: 991px) {
+          .div-2 {
+            max-width: 100%;
+            flex-wrap: wrap;
+            white-space: initial;
+            padding: 0 20px;
+          }
+        }
+        .div-3 {
+          display: flex;
+          flex-grow: 1;
+          flex-basis: 0%;
+          flex-direction: column;
+        }
+        @media (max-width: 991px) {
+          .div-3 {
+            white-space: initial;
+          }
+        }
+        .div-4 {
+          font: 900 32px/29px Inter, sans-serif;
+        }
+        .div-5 {
+          font: 300 14px/179% Inter, sans-serif;
+        }
+        .div-6 {
+          align-self: stretch;
+          display: flex;
+          gap: 6px;
+          font-size: 24px;
+          font-weight: 400;
+          text-align: center;
+          margin: auto 0;
+        }
+        @media (max-width: 991px) {
+          .div-6 {
+            white-space: initial;
+          }
+        }
+        .img {
+          aspect-ratio: 1.67;
+          object-fit: auto;
+          object-position: center;
+          width: 20px;
+          margin: auto 0;
+        }
+        .div-7 {
+          font-family: Inter, sans-serif;
+        }
+        .img-2 {
+          aspect-ratio: 1.54;
+          object-fit: auto;
+          object-position: center;
+          width: 109px;
+          max-width: 100%;
+        }
+        .div-8 {
+          align-self: center;
+          display: flex;
+          margin-top: 124px;
+          width: 100%;
+          max-width: 1231px;
+          justify-content: space-between;
+          gap: 20px;
+          text-align: center;
+        }
+        @media (max-width: 991px) {
+          .div-8 {
+            max-width: 100%;
+            flex-wrap: wrap;
+            margin-top: 40px;
+          }
+        }
+        .div-9 {
+          display: flex;
+          justify-content: space-between;
+          gap: 19px;
+          padding: 0 20px;
+        }
+        @media (max-width: 991px) {
+          .div-9 {
+            max-width: 100%;
+            flex-wrap: wrap;
+          }
+        }
+        .div-10 {
+          border-radius: 5px;
+          border: 1px solid #fff;
+          background-color: #fff;
+          display: flex;
+          flex-basis: 0%;
+          flex-direction: column;
+          font-size: 20px;
+          color: #00649c;
+          font-weight: 400;
+          white-space: nowrap;
+          padding: 17px 64px 50px 9px;
+        }
+        @media (max-width: 991px) {
+          .div-10 {
+            padding-right: 20px;
+            white-space: initial;
+          }
+        }
+        .div-11 {
+          color: #72777a;
+          font: 14px Inter, sans-serif;
+        }
+        .div-12 {
+          display: flex;
+          margin-top: 19px;
+          justify-content: space-between;
+          gap: 14px;
+        }
+        @media (max-width: 991px) {
+          .div-12 {
+            white-space: initial;
+          }
+        }
+        .img-3 {
+          aspect-ratio: 1;
+          object-fit: auto;
+          object-position: center;
+          width: 25px;
+        }
+        .div-13 {
+          font-family: Inter, sans-serif;
+        }
+        .div-14 {
+          color: #72777a;
+          margin-top: 59px;
+          font: 14px Inter, sans-serif;
+        }
+        @media (max-width: 991px) {
+          .div-14 {
+            margin-top: 40px;
+          }
+        }
+        .div-15 {
+          display: flex;
+          margin-top: 23px;
+          justify-content: space-between;
+          gap: 13px;
+        }
+        @media (max-width: 991px) {
+          .div-15 {
+            white-space: initial;
+          }
+        }
+        .img-4 {
+          aspect-ratio: 1;
+          object-fit: auto;
+          object-position: center;
+          width: 25px;
+        }
+        .div-16 {
+          font-family: Inter, sans-serif;
+          margin: auto 0;
+        }
+        .div-17 {
+          display: flex;
+          margin-top: 20px;
+          justify-content: space-between;
+          gap: 12px;
+        }
+        @media (max-width: 991px) {
+          .div-17 {
+            margin-right: 5px;
+            white-space: initial;
+          }
+        }
+        .img-5 {
+          aspect-ratio: 1;
+          object-fit: auto;
+          object-position: center;
+          width: 24px;
+        }
+        .div-18 {
+          font-family: Inter, sans-serif;
+          margin: auto 0;
+        }
+        .div-19 {
+          display: flex;
+          margin-top: 23px;
+          justify-content: space-between;
+          gap: 17px;
+        }
+        @media (max-width: 991px) {
+          .div-19 {
+            white-space: initial;
+          }
+        }
+        .img-6 {
+          aspect-ratio: 1;
+          object-fit: auto;
+          object-position: center;
+          width: 20px;
+          stroke-width: 1.5px;
+          stroke: #00649c;
+          align-self: start;
+        }
+        .div-20 {
+          font-family: Inter, sans-serif;
+        }
+        .div-21 {
+          display: flex;
+          margin-top: 22px;
+          justify-content: space-between;
+          gap: 15px;
+          color: #8bb31d;
+        }
+        @media (max-width: 991px) {
+          .div-21 {
+            white-space: initial;
+          }
+        }
+        .img-7 {
+          aspect-ratio: 1;
+          object-fit: auto;
+          object-position: center;
+          width: 24px;
+        }
+        .div-22 {
+          font-family: Inter, sans-serif;
+          margin: auto 0;
+        }
+        .img-8 {
+          aspect-ratio: 0.01;
+          object-fit: auto;
+          object-position: center;
+          width: 9px;
+          stroke-width: 1px;
+          stroke: #72777a;
+          filter: blur(2px);
+          margin: auto 0;
+        }
+        .div-23 {
+          align-self: start;
+          display: flex;
+          margin-top: 4px;
+          flex-grow: 1;
+          flex-basis: 0%;
+          flex-direction: column;
+        }
+        @media (max-width: 991px) {
+          .div-23 {
+            max-width: 100%;
+          }
+        }
+        .div-24 {
+          align-self: start;
+          display: flex;
+          margin-left: 15px;
+          gap: 16px;
+          font-size: 20px;
+          color: #8bb31d;
+          font-weight: 500;
+          white-space: nowrap;
+        }
+        @media (max-width: 991px) {
+          .div-24 {
+            margin-left: 10px;
+            white-space: initial;
+          }
+        }
+        .div-25 {
+          font-family: Inter, sans-serif;
+          margin: auto 0;
+        }
+        .div-26 {
+          font-family: Inter, sans-serif;
+          flex-grow: 1;
+        }
+        @media (max-width: 991px) {
+          .div-26 {
+            white-space: initial;
+          }
+        }
+        .div-27 {
+          display: flex;
+          justify-content: space-between;
+          gap: 18px;
+          font-weight: 400;
+        }
+        @media (max-width: 991px) {
+          .div-27 {
+            max-width: 100%;
+            flex-wrap: wrap;
+          }
+        }
+        .div-28 {
+          background-color: #fff;
+          display: flex;
+          flex-grow: 1;
+          flex-basis: 0%;
+          flex-direction: column;
+          margin: auto 0;
+          padding: 42px 4px 8px 26px;
+        }
+        @media (max-width: 991px) {
+          .div-28 {
+            max-width: 100%;
+            padding-left: 20px;
+          }
+        }
+        .div-29 {
+          align-self: center;
+          display: flex;
+          width: 622px;
+          max-width: 100%;
+          align-items: start;
+          justify-content: space-between;
+          gap: 20px;
+        }
+        @media (max-width: 991px) {
+          .div-29 {
+            flex-wrap: wrap;
+          }
+        }
+        .div-30 {
+          display: flex;
+          flex-grow: 1;
+          flex-basis: 0%;
+          flex-direction: column;
+          align-items: center;
+          color: #000;
+          white-space: nowrap;
+        }
+        @media (max-width: 991px) {
+          .div-30 {
+            white-space: initial;
+          }
+        }
+        .img-9 {
+          aspect-ratio: 1;
+          object-fit: auto;
+          object-position: center;
+          width: 71px;
+        }
+        .div-31 {
+          margin-top: 17px;
+          font: 18px Inter, sans-serif;
+        }
+        @media (max-width: 991px) {
+          .div-31 {
+            white-space: initial;
+          }
+        }
+        .div-32 {
+          margin-top: 11px;
+          font: 10px Inter, sans-serif;
+        }
+        .div-33 {
+          color: #bbb;
+          align-self: stretch;
+          margin-top: 111px;
+          font: 12px Inter, sans-serif;
+        }
+        @media (max-width: 991px) {
+          .div-33 {
+            margin-top: 40px;
+            white-space: initial;
+          }
+        }
+        .img-10 {
+          aspect-ratio: 0.03;
+          object-fit: auto;
+          object-position: center;
+          width: 9px;
+          stroke-width: 1px;
+          stroke: #72777a;
+          filter: blur(2px);
+          align-self: end;
+          margin-top: 67px;
+        }
+        @media (max-width: 991px) {
+          .img-10 {
+            margin-top: 40px;
+          }
+        }
+        .div-34 {
+          display: flex;
+          flex-grow: 1;
+          flex-basis: 0%;
+          flex-direction: column;
+        }
+        .img-11 {
+          aspect-ratio: 1;
+          object-fit: auto;
+          object-position: center;
+          width: 71px;
+          align-self: center;
+        }
+        .div-35 {
+          display: flex;
+          margin-top: 17px;
+          align-items: start;
+          justify-content: space-between;
+          gap: 10px;
+          color: #000;
+          white-space: nowrap;
+          padding: 0 1px;
+        }
+        @media (max-width: 991px) {
+          .div-35 {
+            white-space: initial;
+          }
+        }
+        .div-36 {
+          align-self: stretch;
+          display: flex;
+          flex-grow: 1;
+          flex-basis: 0%;
+          flex-direction: column;
+        }
+        @media (max-width: 991px) {
+          .div-36 {
+            white-space: initial;
+          }
+        }
+        .div-37 {
+          font: 18px Inter, sans-serif;
+        }
+        @media (max-width: 991px) {
+          .div-37 {
+            white-space: initial;
+          }
+        }
+        .div-38 {
+          align-self: center;
+          margin-top: 11px;
+          font: 10px Inter, sans-serif;
+        }
+        .img-12 {
+          aspect-ratio: 1;
+          object-fit: auto;
+          object-position: center;
+          width: 15px;
+          fill: #00649c;
+        }
+        .img-13 {
+          aspect-ratio: 1;
+          object-fit: auto;
+          object-position: center;
+          width: 15px;
+          fill: #00649c;
+        }
+        .div-39 {
+          color: #bbb;
+          margin-top: 111px;
+          font: 12px Inter, sans-serif;
+        }
+        @media (max-width: 991px) {
+          .div-39 {
+            margin-top: 40px;
+          }
+        }
+        .div-40 {
+          color: #00649c;
+          margin-top: 17px;
+          font: 12px Inter, sans-serif;
+        }
+        @media (max-width: 991px) {
+          .div-40 {
+            max-width: 100%;
+          }
+        }
+        .div-41 {
+          color: #000;
+          margin-top: 26px;
+          font: 12px Inter, sans-serif;
+        }
+        @media (max-width: 991px) {
+          .div-41 {
+            max-width: 100%;
+          }
+        }
+        .div-42 {
+          color: #000;
+          align-self: start;
+          margin: 9px 0 0 41px;
+          font: italic 200 12px Inter, sans-serif;
+        }
+        @media (max-width: 991px) {
+          .div-42 {
+            margin-left: 10px;
+          }
+        }
+        .div-43 {
+          display: flex;
+          margin-top: 53px;
+          width: 100%;
+          justify-content: space-between;
+          gap: 20px;
+          font-size: 14px;
+          font-weight: 500;
+          white-space: nowrap;
+        }
+        @media (max-width: 991px) {
+          .div-43 {
+            max-width: 100%;
+            flex-wrap: wrap;
+            margin-top: 40px;
+            white-space: initial;
+          }
+        }
+        .div-44 {
+          justify-content: space-between;
+          border-radius: 5px;
+          border: 1px solid #dfdfdf;
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+          background-color: #fff;
+          display: flex;
+          gap: 10px;
+          color: #000;
+          padding: 8px 5px 8px 14px;
+        }
+        @media (max-width: 991px) {
+          .div-44 {
+            white-space: initial;
+          }
+        }
+        .div-45 {
+          font-family: Inter, sans-serif;
+          flex-grow: 1;
+        }
+        @media (max-width: 991px) {
+          .div-45 {
+            white-space: initial;
+          }
+        }
+        .img-14 {
+          aspect-ratio: 1.06;
+          object-fit: auto;
+          object-position: center;
+          width: 16px;
+          fill: #000;
+        }
+        .div-46 {
+          display: flex;
+          justify-content: space-between;
+          gap: 5px;
+          color: #fff;
+        }
+        @media (max-width: 991px) {
+          .div-46 {
+            white-space: initial;
+          }
+        }
+        .div-47 {
+          font-family: Inter, sans-serif;
+          justify-content: center;
+          border-radius: 5px;
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+          background-color: #a5d917;
+          aspect-ratio: 2.39;
+          padding: 9px 14px;
+        }
+        @media (max-width: 991px) {
+          .div-47 {
+            white-space: initial;
+          }
+        }
+        .div-48 {
+          font-family: Inter, sans-serif;
+          justify-content: center;
+          border-radius: 5px;
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+          background-color: #d13b3b;
+          aspect-ratio: 2.39;
+          padding: 10px 13px;
+        }
+        @media (max-width: 991px) {
+          .div-48 {
+            white-space: initial;
+          }
+        }
+        .img-15 {
+          aspect-ratio: 0.01;
+          object-fit: auto;
+          object-position: center;
+          width: 9px;
+          stroke-width: 1px;
+          stroke: #72777a;
+          filter: blur(2px);
+        }
+        .div-49 {
+          align-self: start;
+          display: flex;
+          margin-top: 55px;
+          flex-basis: 0%;
+          flex-direction: column;
+          font-size: 14px;
+          color: #fff;
+          font-weight: 500;
+        }
+        @media (max-width: 991px) {
+          .div-49 {
+            margin-top: 40px;
+          }
+        }
+        .div-50 {
+          justify-content: space-between;
+          border-radius: 5px;
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+          background-color: #a5d917;
+          display: flex;
+          gap: 13px;
+          padding: 14px 26px;
+        }
+        @media (max-width: 991px) {
+          .div-50 {
+            padding: 0 20px;
+          }
+        }
+        .div-51 {
+          font-family: Inter, sans-serif;
+          align-self: start;
+          margin-top: 12px;
+        }
+        .img-16 {
+          aspect-ratio: 1.04;
+          object-fit: auto;
+          object-position: center;
+          width: 27px;
+        }
+        .div-52 {
+          justify-content: space-between;
+          border-radius: 5px;
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+          background-color: #a5d917;
+          display: flex;
+          margin-top: 20px;
+          gap: 10px;
+          white-space: nowrap;
+          padding: 17px 19px;
+        }
+        @media (max-width: 991px) {
+          .div-52 {
+            padding-left: 20px;
+            white-space: initial;
+          }
+        }
+        .div-53 {
+          font-family: Inter, sans-serif;
+          flex-grow: 1;
+        }
+        @media (max-width: 991px) {
+          .div-53 {
+            white-space: initial;
+          }
+        }
+        .img-17 {
+          aspect-ratio: 1;
+          object-fit: auto;
+          object-position: center;
+          width: 20px;
+        }
+        .div-54 {
+          justify-content: space-between;
+          border-radius: 5px;
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+          background-color: #fff;
+          display: flex;
+          margin-top: 20px;
+          gap: 5px;
+          color: #a5d917;
+          white-space: nowrap;
+          padding: 17px 20px;
+        }
+        @media (max-width: 991px) {
+          .div-54 {
+            white-space: initial;
+          }
+        }
+        .div-55 {
+          font-family: Inter, sans-serif;
+          flex-grow: 1;
+        }
+        @media (max-width: 991px) {
+          .div-55 {
+            white-space: initial;
+          }
+        }
+        .img-18 {
+          aspect-ratio: 0.95;
+          object-fit: auto;
+          object-position: center;
+          width: 19px;
+          fill: #a5d917;
+        }
+        .div-56 {
+          background-color: #72777a;
+          display: flex;
+          margin-top: 36px;
+          width: 100%;
+          justify-content: center;
+          align-items: center;
+          font-size: 14px;
+          color: #fff;
+          font-weight: 400;
+          padding: 38px 60px;
+        }
+        @media (max-width: 991px) {
+          .div-56 {
+            max-width: 100%;
+            padding: 0 20px;
+          }
+        }
+        .div-57 {
+          display: flex;
+          width: 100%;
+          max-width: 1023px;
+          justify-content: space-between;
+          gap: 20px;
+        }
+        @media (max-width: 991px) {
+          .div-57 {
+            max-width: 100%;
+            flex-wrap: wrap;
+          }
+        }
+        .div-58 {
+          font-family: Inter, sans-serif;
+          flex-grow: 1;
+          flex-basis: auto;
+        }
+        .div-59 {
+          align-self: start;
+          display: flex;
+          justify-content: space-between;
+          gap: 20px;
+          white-space: nowrap;
+          text-align: center;
+        }
+        @media (max-width: 991px) {
+          .div-59 {
+            white-space: initial;
+          }
+        }
+        .div-60 {
+          font-family: Inter, sans-serif;
+        }
+        .div-61 {
+          font-family: Inter, sans-serif;
+        }
+        .div-62 {
+          font-family: Inter, sans-serif;
+        }
+      </style>
+
+    <body>
+        <div class="div">
+            <div class="div-2">
+              <div class="div-3">
+                <div class="div-4">
+                  WeCanTech
+                  <br />
+                  Mentoring
+                </div>
+                <div class="div-5">Frauen|Technik|Zukunft</div>
+              </div>
+              <div class="div-6">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/cc72f956b49c11de9e4b8f3f68f313044052d4c7139c5465668ca00f1687ad97?apiKey=eed7a732e0ea40cfb653894ac8965f1e&"
+                  class="img"
+                />
+                <div class="div-7">About</div>
+              </div>
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/3ed5de3c43d823d96eb31d2d871bd0704b0d155eab129e7849e86db849c438fd?apiKey=eed7a732e0ea40cfb653894ac8965f1e&"
+                class="img-2"
+              />
+            </div>
+            <div class="div-8">
+              <div class="div-9">
+                <div class="div-10">
+                  <div class="div-11">MAIN</div>
+                  <div class="div-12">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/402d93fda615a2faed730bd3ba01c3c082c4dad06fca2ac9803b6f7a43689458?apiKey=eed7a732e0ea40cfb653894ac8965f1e&"
+                      class="img-3"
+                    />
+                    <div class="div-13">Dashbard</div>
+                  </div>
+                  <div class="div-14">TOOLS</div>
+                  <div class="div-15">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/599dd95b833944178b615927fc5bde1c07ecf0fb2760a2caa10535f741ee09cb?apiKey=eed7a732e0ea40cfb653894ac8965f1e&"
+                      class="img-4"
+                    />
+                    <div class="div-16">Email</div>
+                  </div>
+                  <div class="div-17">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/e6c22af95ad3705d9a7a19d81639d39a16f8522baa3cf12955b712085f9ce5d0?apiKey=eed7a732e0ea40cfb653894ac8965f1e&"
+                      class="img-5"
+                    />
+                    <div class="div-18">Calendar</div>
+                  </div>
+                  <div class="div-19">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/fac81233b3afa993b194fe5613e1f857c52da0dbf497c1b8447a87c95a0e2765?apiKey=eed7a732e0ea40cfb653894ac8965f1e&"
+                      class="img-6"
+                    />
+                    <div class="div-20">Reports</div>
+                  </div>
+                  <div class="div-21">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/66eecd0bd3a20d68e0a4ceec2e9fa1abf15e1420a83f05a332ca1c3ccb738bc8?apiKey=eed7a732e0ea40cfb653894ac8965f1e&"
+                      class="img-7"
+                    />
+                    <div class="div-22">Users</div>
+                  </div>
+                </div>
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/46bb251868c0568141fe428ee66fe69e2aaf95a48c47b51cc96d735976e084e7?apiKey=eed7a732e0ea40cfb653894ac8965f1e&"
+                  class="img-8"
+                />
+                <div class="div-23">
+                  <div class="div-24">
+                    <div class="div-25">&lt;</div>
+                    <div class="div-26">Pending Requests</div>
+                  </div>
+                  <div class="div-27">
+                    <div class="div-28">
+                      <div class="div-29">
+                        <div class="div-30">
+                          <img
+                            loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/1ea52c43905a82411553845d8edbf7a1be8dc25e05518d888717c17967a5cba4?apiKey=eed7a732e0ea40cfb653894ac8965f1e&"
+                            class="img-9"
+                          />
+                          <div class="div-31">Alissa Musterfrau</div>
+                          <div class="div-32">alissa@technikum-wien.at</div>
+                          <div class="div-33">PERSONAL DETAILS SUMMARY</div>
+                        </div>
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/82c7e273710171edd8277564aaea3c041f02a896cf42527cf3a0499e95e001c2?apiKey=eed7a732e0ea40cfb653894ac8965f1e&"
+                          class="img-10"
+                        />
+                        <div class="div-34">
+                          <img
+                            loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/1ea52c43905a82411553845d8edbf7a1be8dc25e05518d888717c17967a5cba4?apiKey=eed7a732e0ea40cfb653894ac8965f1e&"
+                            class="img-11"
+                          />
+                          <div class="div-35">
+                            <div class="div-36">
+                              <div class="div-37">Beatrice Musterfrau</div>
+                              <div class="div-38">beatrice@technikum-wien.at</div>
+                            </div>
+                            <img
+                              loading="lazy"
+                              src="https://cdn.builder.io/api/v1/image/assets/TEMP/98c9527d5ba2301894f467126cf23ff0ea4f3835ab473e375a6a33205308a5d4?apiKey=eed7a732e0ea40cfb653894ac8965f1e&"
+                              class="img-12"
+                            />
+                            <img
+                              loading="lazy"
+                              src="https://cdn.builder.io/api/v1/image/assets/TEMP/bd9d9ab628faaa97170bb890b4607058fdaa777b5d7e0d3516b066ce0a89186c?apiKey=eed7a732e0ea40cfb653894ac8965f1e&"
+                              class="img-13"
+                            />
+                          </div>
+                          <div class="div-39">PERSONAL DETAILS SUMMARY</div>
+                        </div>
+                      </div>
+                      <div class="div-40">
+                        Based on the available information, the algorithm found
+                        <span style="color: rgba(0, 100, 156, 1)">Beatrice</span>
+                        to be the best choice for
+                        <span style="color: rgba(0, 100, 156, 1)">Alissa.</span>
+                      </div>
+                      <div class="div-41">Duration of menthorship:</div>
+                      <div class="div-42">To be established</div>
+                      <div class="div-43">
+                        <div class="div-44">
+                          <div class="div-45">Find New Mentor</div>
+                          <img
+                            loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/753e3b26a5dfe5a67cb5c950930b28af4cc0a0da0f75a4f797b8651d3135fd72?apiKey=eed7a732e0ea40cfb653894ac8965f1e&"
+                            class="img-14"
+                          />
+                        </div>
+                        <div class="div-46">
+                          <div class="div-47">Accept</div>
+                          <div class="div-48">Decline</div>
+                        </div>
+                      </div>
+                    </div>
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/3fdd3c0b49a24dc57f28299ed6444a6bc11044dc97b5cc170e3fa9fc10a3e2d2?apiKey=eed7a732e0ea40cfb653894ac8965f1e&"
+                      class="img-15"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="div-49">
+                <div class="div-50">
+                  <div class="div-51">Add User</div>
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/1a74763db24da29df68506731147dc86eb417068522f2a2f70c704e335f2d060?apiKey=eed7a732e0ea40cfb653894ac8965f1e&"
+                    class="img-16"
+                  />
+                </div>
+                <div class="div-52">
+                  <div class="div-53">Upload Excel</div>
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/6fc58b05dfb09b032ca97d4b6ee27e7a6b37ef495fe70f36b1171e87d4e8a6f4?apiKey=eed7a732e0ea40cfb653894ac8965f1e&"
+                    class="img-17"
+                  />
+                </div>
+                <div class="div-54">
+                  <div class="div-55">Pending Requests</div>
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/3eb9a10f73e216f37f00baca26db95a2b74e8891b91a83dd84423839659b2843?apiKey=eed7a732e0ea40cfb653894ac8965f1e&"
+                    class="img-18"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="div-56">
+              <div class="div-57">
+                <div class="div-58">@2023 FH Technikum Wien</div>
+                <div class="div-59">
+                  <div class="div-60">Home</div>
+                  <div class="div-61">Impressum</div>
+                  <div class="div-62">Privacy</div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </body>
+</html>
